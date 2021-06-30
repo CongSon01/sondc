@@ -326,6 +326,30 @@ a.navbar-brand:hover i{
 p.text-box {
     font-size: 0.7rem;
 }
+p.type_text {
+    overflow: hidden;
+    white-space: nowrap;
+    animation:
+        typing 3s steps(40) infinite normal both,
+        blink-caret 500ms steps(40) infinite normal;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+/*animation type*/
+.animation_type {
+    animation: typewrite;
+}
 
 p.tilte-box{
     font-size: 1.1rem;
