@@ -189,6 +189,7 @@ body {
     width: 100%;
     align-items: center;
     padding-left: 3%;
+    padding-right: 3%;
 }
 
 a.navbar-brand {
@@ -203,8 +204,9 @@ a.navbar-brand {
 a.navbar-brand:hover i{
     color: #3273dc;
 }
+
 .list {
-   margin-left: 70%;
+   margin-left: 63%;
    display: none;
 }
 
