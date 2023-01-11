@@ -306,8 +306,8 @@ a.navbar-brand:hover i{
 
 /* gioi thieu*/
 .session-1 {
-    padding-top: 15%;
-    padding-bottom: 10%;
+    padding-top: 6%;
+    padding-bottom: 4%;
 }
 .box {
     background-color: #fff;
@@ -438,7 +438,7 @@ p.sub-title-box {
     border: 1px solid turquoise;
     padding: 2px 8px;
     border-radius: 3px;
-    margin-right: 10px;
+    margin-right: 3px;
     margin-bottom: 5px;
     font-size: 0.7rem;
     font-weight: bold;
