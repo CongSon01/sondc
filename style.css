@@ -8,6 +8,7 @@
 }
 a{
     text-align: none;
+    color: #4a4a4a;
 }
 body {
     color: #4a4a4a;
@@ -24,14 +25,14 @@ body {
 }
 
 .grid {
-    width: 90%;
+    width: 95%;
     display: block;
     padding: 0;
     margin: auto;
 }
 
 .grid.wide {
-    max-width: 90%;
+    max-width: 95%;
     margin: 0 auto;
 }
 
@@ -306,8 +307,8 @@ a.navbar-brand:hover i{
 
 /* gioi thieu*/
 .session-1 {
-    padding-top: 6%;
-    padding-bottom: 4%;
+    padding-top: 4%;
+    padding-bottom: 2%;
 }
 .box {
     background-color: #fff;
@@ -321,12 +322,22 @@ a.navbar-brand:hover i{
 .box p {
     margin-bottom: 5px;
 }
+.box .resume-content{
+    margin-left: 10px;
+}
+/* .box .resume-content{
+    margin-left: 20px;
+} */
 .text-box i {
     margin-right: 5px;
 }
+.text-box a {
+    text-decoration:none;
+    color: #4a4a4a;
+}
 
 p.text-box {
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 p.type_text {
     overflow: hidden;
@@ -354,13 +365,13 @@ p.type_text {
 }
 
 p.tilte-box{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     /* line-height: 1.125rem; */
     color: #4a4a4a;
 }
 p.sub-title-box {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #7a7a7a;
 }
 .outer-border-image-lv1{
@@ -401,18 +412,20 @@ p.sub-title-box {
   /* #about */
   .session-2 {
     background-color: #f5f5f5;
+    padding-top: 3%;
+    padding-bottom: 2%;
   }
   .about-me {
-      width: 100%;
+      /* width: 100%;
       display: flex;
       flex-wrap: wrap;
-      align-items: center;
+      align-items: center; */
   }
   .img-about {
       text-align: center;
   }
   .img-about img{
-      width: 70%;
+      width: 90%;
   }
   .btn-down-cv {
       margin-top: 2rem;
@@ -440,8 +453,11 @@ p.sub-title-box {
     border-radius: 3px;
     margin-right: 3px;
     margin-bottom: 5px;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: bold;
+  }
+  .unorderd-list li a{
+    text-decoration: none; /* no underline */
   }
 
   .text-center {
@@ -479,7 +495,7 @@ p.sub-title-box {
       justify-content: center;
       align-items: center;
       padding: 0.5rem;
-      font-size: .7rem;
+      font-size: 1rem;
   }
   .more a {
     color: #3273dc;
