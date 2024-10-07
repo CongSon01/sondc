@@ -415,12 +415,12 @@ p.sub-title-box {
     padding-top: 3%;
     padding-bottom: 2%;
   }
-  .about-me {
+  /* .about-me { */
       /* width: 100%;
       display: flex;
       flex-wrap: wrap;
       align-items: center; */
-  }
+  /* } */
   .img-about {
       text-align: center;
   }
